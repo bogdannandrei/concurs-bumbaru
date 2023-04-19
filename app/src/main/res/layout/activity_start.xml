@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/blind_old_man_with_a_dog_generated"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visionary"
+        android:textSize="24sp"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/roboto_medium"/>
+
+    <TextView
+        android:id="@+id/textBelow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Helping you imagine the world"
+        android:textSize="16sp"
+        android:layout_below="@+id/text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto_medium" />
+
+    <Button
+        android:id="@+id/buttonLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Realtime"
+        android:layout_below="@+id/textBelow"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#D1B7A1"
+        android:textColor="#000"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/roboto_medium" />
+
+    <Button
+        android:id="@+id/buttonRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Storage"
+        android:textColor="#000"
+        android:layout_below="@+id/textBelow"
+        android:backgroundTint="#D1B7A1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:fontFamily="@font/roboto_medium"/>
+
+</RelativeLayout>
